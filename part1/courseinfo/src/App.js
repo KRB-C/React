@@ -3,7 +3,6 @@ import React from "react";
 const Header = (props) => {
   return (
     <div>
-      {console.log(props)}
       <h1>{props.name}</h1>
     </div>
   );
@@ -22,7 +21,6 @@ const Part = (props) => {
 const Content = (props) => {
   return (
     <div>
-      {console.log(props)}
       <Part
         part={props.parts.parts[0].name}
         ex={props.parts.parts[0].exercises}
